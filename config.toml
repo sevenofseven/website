@@ -63,7 +63,7 @@ soundcloud_subscribe = ""
 pocketcasts_subscribe = ""
 mailchimp_subscribe = ""
 #rss_subscribe = "http://feed.com/myfeed" #only set this if you don't want to use the built-in feed
-description = ""
+description = "We explore seven minutes of the acclaimed film Seven. No, not that one. Andy Sidaris' opus from 1979 starring William Smith. Join us as we explore the cheese and exploitative cinema of Sidaris"
 media_prefix = "https://media.blubrry.com/arresteddevops/content.blubrry.com/arresteddevops/"
   [params.feed]
     copyright = "Copyright 2019 Seven of Seven" #do not use markdown in this field; it is used in the feed
