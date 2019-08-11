@@ -1,0 +1,103 @@
+baseURL = "http://sevenofseven.site/"
+languageCode = "en-us"
+title = "Seven of Seven"
+theme = "castanet"
+googleAnalytics = ""
+disqusShortname = ""
+paginate = "9"
+
+
+[permalinks]
+	# page = "/:filename/"
+	about = "/:filename/"
+	episode = "/:filename/"
+
+
+# The theme supports menus with up to one submenu per menu item
+# The menu name must be "Main"
+# The menus are sorted based upon their identifier
+[[Menu.Main]]
+    name = "About"
+    identifier = "about"
+    url = "about"
+
+[[Menu.Main]]
+    name = "Contact"
+    identifier = "contact"
+    url = "contact"
+
+[[Menu.Main]]
+    name = "Hosts"
+    identifier = "hosts"
+    url = "host"
+
+[[Menu.Main]]
+    name = "Guests"
+    identifier = "guests"
+    url = "guest"
+
+[[Menu.Main]]
+    name = "Resources"
+    identifier = "resources"
+    url = "#!"
+
+[[Menu.Main]]
+    name = "Podcasts"
+    identifier = "podcasts"
+    url = "books"
+    parent = "resources"
+
+[params]
+site_theme = "grey"
+site_layout = "grid"
+enable_jumbo = "false"
+# truncate = "100"
+# about_logo = "/img/hugocast.png"
+copyright_notice = "Copyright 2019 [Seven of Seven](https://sevenofseven.wtf)"
+itunes_subscribe = "http://itunes.apple.com/us/podcast/"
+android_subscribe = "http://subscribeonandroid.com/feeds.podtrac.com/"
+spotify_subscribe = "https://open.spotify.com/show/..."
+google_play_subscribe = ""
+stitcher_subscribe = ""
+soundcloud_subscribe = ""
+pocketcasts_subscribe = ""
+mailchimp_subscribe = ""
+#rss_subscribe = "http://feed.com/myfeed" #only set this if you don't want to use the built-in feed
+description = ""
+media_prefix = "https://media.blubrry.com/arresteddevops/content.blubrry.com/arresteddevops/"
+  [params.feed]
+    copyright = "Copyright 2019 Seven of Seven" #do not use markdown in this field; it is used in the feed
+    itunes_subtitle = "The best podcast ever" #no markdown or HTML
+    itunes_author = "Seven of Seven" #no markdown or HTML
+    itunes_summary = "" # Limited to 4000 characters or less, plain text, no HTML
+    itunes_owner_name = "Christopher Najewicz"
+    itunes_owner_email = "chief@beefdisciple.com" #contains the e-mail address that will be used to contact the owner of the Podcast for communication specifically about their Podcast on iTunes. It will not be publicly displayed on iTunes.
+    itunes_image = "https://www.arresteddevops.com/img/ado-podcast-logo.png" #fqdn to the image art for your podcast
+    itunes_top_category = "Entertainment"
+    itunes_first_sub_category = "Movies"
+    itunes_second_sub_category = "By-the-minute"
+    language = "en-us"
+
+  [params.social]
+    facebook = "sevenofseven"
+    facebook_admin = ["500557137","1234"] # This needs to be one or more page admins to get domain insights
+    twitter = "sevenofseven"
+    twitter_domain = "arresteddevops.com" # This domain shows in twitter cards as "View on `twitter_domain`"
+
+  [params.authors]
+    [params.authors.Chief]
+        name	= "Christopher 'Chief' Najewicz"
+        thumbnail = "img/host/chief_md.jpg"
+        bio = ""
+        [params.authors.Chief.social]
+            github = "chiefy"
+            twitter = "tehsuck"
+            instagram = "tehsuck"
+    [params.authors.Johnny]
+        name = "John Miller"
+        thumbnail = "img/host/johnny.jpg"
+        bio = ""
+        [params.authors.Johnny.social]
+            twitter = "johnnyanarchy"
+
+    [params.links]

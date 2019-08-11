@@ -1,0 +1,15 @@
++++
+Title = "John 'Johnny' Miller"
+date = "2016-12-08T20:55:58-06:00"
+Twitter = "johnnyanarchy"
+Website = ""
+Type = "host"
+Facebook = ""
+Linkedin = ""
+Pronouns = ""
+GitHub = ""
+Thumbnail = "img/host/johnny.jpg"
+Pinterest = ""
+Instagram = ""
+YouTube = ""
++++
