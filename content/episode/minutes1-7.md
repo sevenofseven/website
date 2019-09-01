@@ -1,5 +1,5 @@
 +++
-Description = "We introduce ourselves and talk about the first SEVEN minutes of Andy Sidaris' Seven"
+Description = "We introduce ourselves and talk about the first SEVEN minutes of Andy Sidaris' Seven."
 Date = 2019-09-01T13:43:56-04:00
 PublishDate = 2019-09-01T13:43:56-04:00 
 podcast_file = "seven-of-seven-ep1.mp3" 
