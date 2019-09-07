@@ -20,31 +20,31 @@ paginate = "9"
     identifier = "about"
     url = "about"
 
-[[Menu.Main]]
-    name = "Contact"
-    identifier = "contact"
-    url = "contact"
+#[[Menu.Main]]
+#    name = "Contact"
+#    identifier = "contact"
+#    url = "contact"
 
 [[Menu.Main]]
     name = "Hosts"
     identifier = "hosts"
     url = "host"
 
-[[Menu.Main]]
-    name = "Guests"
-    identifier = "guests"
-    url = "guest"
+#[[Menu.Main]]
+#    name = "Guests"
+#    identifier = "guests"
+#    url = "guest"
 
-[[Menu.Main]]
-    name = "Resources"
-    identifier = "resources"
-    url = "#!"
+#[[Menu.Main]]
+#    name = "Resources"
+#    identifier = "resources"
+#    url = "#!"
 
-[[Menu.Main]]
-    name = "Podcasts"
-    identifier = "podcasts"
-    url = "books"
-    parent = "resources"
+#[[Menu.Main]]
+#    name = "Podcasts"
+#    identifier = "podcasts"
+#    url = "books"
+#    parent = "resources"
 
 [params]
 site_theme = "grey"
@@ -54,14 +54,14 @@ enable_jumbo = "false"
 about_logo = "/img/7o7.png"
 logo = "img/7o7.png"
 copyright_notice = "Copyright 2019 [Seven of Seven](https://sevenofseven.wtf)"
-itunes_subscribe = "http://itunes.apple.com/us/podcast/"
-android_subscribe = "http://subscribeonandroid.com/feeds.podtrac.com/"
-spotify_subscribe = "https://open.spotify.com/show/..."
-google_play_subscribe = ""
-stitcher_subscribe = ""
-soundcloud_subscribe = ""
-pocketcasts_subscribe = ""
-mailchimp_subscribe = ""
+itunes_subscribe = "https://podcasts.apple.com/us/podcast/seven-of-seven/id1478561577"
+#android_subscribe = "http://subscribeonandroid.com/feeds.podtrac.com/"
+spotify_subscribe = "https://open.spotify.com/show/3sAb1T7tv7pXEu9nOV3y0L"
+google_play_subscribe = "https://playmusic.app.goo.gl/?ibi=com.google.PlayMusic&isi=691797987&ius=googleplaymusic&apn=com.google.android.music&link=https://play.google.com/music/m/Isktun4sdxaegc33w7l5lcvrp4u?t%3DSeven_of_Seven%26pcampaignid%3DMKT-na-all-co-pr-mu-pod-16"
+stitcher_subscribe = "https://www.stitcher.com/s?fid=460636&refid=stpr"
+#soundcloud_subscribe = ""
+#pocketcasts_subscribe = ""
+#mailchimp_subscribe = ""
 #rss_subscribe = "http://feed.com/myfeed" #only set this if you don't want to use the built-in feed
 description = "Join Chief and Johnny as they explore the legendary cinematic masterpiece that set the world ablaze: SEVEN (No, not that one). They dissect the film in seven minute segments, unpacking the wild, wet, and weird world of Andy Sidaris and attempt to stay (relatively) sane in the process. SPOILER: They fail."
 media_prefix = "https://sevenofseven.wtf/episodes/"
@@ -73,17 +73,15 @@ media_prefix = "https://sevenofseven.wtf/episodes/"
     itunes_owner_name = "Christopher Najewicz"
     itunes_owner_email = "chief@beefdisciple.com" #contains the e-mail address that will be used to contact the owner of the Podcast for communication specifically about their Podcast on iTunes. It will not be publicly displayed on iTunes.
     itunes_image = "https://sevenofseven.wtf/img/7o7-lg.png" #fqdn to the image art for your podcast
-    itunes_top_category = "Entertainment"
-    itunes_first_sub_category = "Movies"
-    itunes_second_sub_category = "By-the-minute"
+    itunes_top_category = "TV & Film"
     language = "en-us"
     explicit = "yes"
 
   [params.social]
     facebook = "sevenofseven"
-    facebook_admin = ["500557137","1234"] # This needs to be one or more page admins to get domain insights
-    twitter = "sevenofseven"
-    twitter_domain = "arresteddevops.com" # This domain shows in twitter cards as "View on `twitter_domain`"
+    #facebook_admin = ["500557137","1234"] # This needs to be one or more page admins to get domain insights
+    twitter = "7of7podcast"
+    twitter_domain = "sevenonseven.wtf" # This domain shows in twitter cards as "View on `twitter_domain`"
 
   [params.authors]
     [params.authors.Chief]
@@ -93,7 +91,6 @@ media_prefix = "https://sevenofseven.wtf/episodes/"
         [params.authors.Chief.social]
             github = "chiefy"
             twitter = "tehsuck"
-            instagram = "tehsuck"
     [params.authors.Johnny]
         name = "John Miller"
         thumbnail = "img/host/johnny.jpg"
