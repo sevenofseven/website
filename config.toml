@@ -1,4 +1,4 @@
-baseURL = "https://sevenofseven.wtf"
+baseURL = "https://sevenofseven.site"
 languageCode = "en-us"
 title = "Seven of Seven"
 theme = "castanet"
@@ -53,7 +53,7 @@ enable_jumbo = "false"
 # truncate = "100"
 about_logo = "/img/7o7.png"
 logo = "img/7o7.png"
-copyright_notice = "Copyright 2019 [Seven of Seven](https://sevenofseven.wtf)"
+copyright_notice = "Copyright 2019 [Seven of Seven](https://sevenofseven.site)"
 itunes_subscribe = "https://podcasts.apple.com/us/podcast/seven-of-seven/id1478561577"
 #android_subscribe = "http://subscribeonandroid.com/feeds.podtrac.com/"
 spotify_subscribe = "https://open.spotify.com/show/3sAb1T7tv7pXEu9nOV3y0L"
@@ -64,7 +64,7 @@ stitcher_subscribe = "https://www.stitcher.com/s?fid=460636&refid=stpr"
 #mailchimp_subscribe = ""
 #rss_subscribe = "http://feed.com/myfeed" #only set this if you don't want to use the built-in feed
 description = "Join Chief and Johnny as they explore the legendary cinematic masterpiece that set the world ablaze: SEVEN (No, not that one). They dissect the film in seven minute segments, unpacking the wild, wet, and weird world of Andy Sidaris and attempt to stay (relatively) sane in the process. SPOILER: They fail."
-media_prefix = "https://sevenofseven.wtf/episodes/"
+media_prefix = "https://sevenofseven.site/episodes/"
   [params.feed]
     copyright = "Copyright 2019 Seven of Seven" #do not use markdown in this field; it is used in the feed
     itunes_subtitle = "A podcast about the films of Andy Sidaris" #no markdown or HTML
@@ -72,7 +72,7 @@ media_prefix = "https://sevenofseven.wtf/episodes/"
     itunes_summary = "Join Chief and Johnny as they explore the legendary cinematic masterpiece that set the world ablaze: SEVEN (No, not that one). They dissect the film in seven minute segments, unpacking the wild, wet, and weird world of Andy Sidaris and attempt to stay (relatively) sane in the process. SPOILER: They fail." # Limited to 4000 characters or less, plain text, no HTML
     itunes_owner_name = "Christopher Najewicz"
     itunes_owner_email = "chief@beefdisciple.com" #contains the e-mail address that will be used to contact the owner of the Podcast for communication specifically about their Podcast on iTunes. It will not be publicly displayed on iTunes.
-    itunes_image = "https://sevenofseven.wtf/img/7o7-lg.png" #fqdn to the image art for your podcast
+    itunes_image = "https://sevenofseven.site/img/7o7-lg.png" #fqdn to the image art for your podcast
     itunes_top_category = "TV & Film"
     language = "en-us"
     explicit = "yes"
@@ -81,7 +81,7 @@ media_prefix = "https://sevenofseven.wtf/episodes/"
     facebook = "sevenofseven"
     #facebook_admin = ["500557137","1234"] # This needs to be one or more page admins to get domain insights
     twitter = "7of7podcast"
-    twitter_domain = "sevenonseven.wtf" # This domain shows in twitter cards as "View on `twitter_domain`"
+    twitter_domain = "sevenonseven.site" # This domain shows in twitter cards as "View on `twitter_domain`"
 
   [params.authors]
     [params.authors.Chief]
